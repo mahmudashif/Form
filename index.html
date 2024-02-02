@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Please Fill Up the form</h2>
+    </header>
+    <main>
+
+        <!---------------- Section one start ---------------->
+
+        <section class="one">
+            <label for="name">Your Name : 
+                <input type="text" placeholder="Your Name" id="name">
+            </label>
+            <label for="email">Your Email : 
+                <input type="email" placeholder="Your Email" id="email">
+            </label>
+            <label for="phone">Your Phone : 
+                <input type="number" placeholder="Your Phone" id="phone">
+            </label>
+        </section>
+
+        <!--------------------- Section one end ------------------->
+
+        <!--------------------- Section two start ------------------>
+
+        <section class="two">
+            <fieldset>
+                <legend>Choose Your Gender</legend>
+                <label for="male">
+                    <input type="radio" id="male" name="Gender">Male
+                </label>
+                <label for="female">
+                    <input type="radio" id="female" name="Gender">Female
+                </label>
+                <label for="custom">
+                    <input type="radio" id="custom" name="Gender">Custom
+                </label>
+            </fieldset>
+        </section>
+
+        <!------------------------ Section two end  ------------------->
+
+        <!------------------------- Section three start --------------->
+
+        <section class="three">
+            <fieldset>
+                <legend>Choose one or more programming language</legend>
+                <label for="python">
+                    <input type="checkbox" id="python" name="programming_language">Python
+                </label>
+                <label for="java">
+                    <input type="checkbox" id="java" name="programming_language">Java
+                </label>
+                <label for="c++">
+                    <input type="checkbox" id="c++" name="programming_language">C++
+                </label>
+                <label for="js">
+                    <input type="checkbox" id="js" name="programming_language">JS
+                </label>
+            </fieldset>
+        </section>
+
+        <!------------------------- Section three end --------------->
+
+        <!------------------------- Section four start ----------------->
+
+        <section class="four">
+            <fieldset>
+                <legend>Put Your Comment</legend>
+                <textarea name="Comment" id="Comment" cols="100" rows="10" placeholder="put your comment here"></textarea>
+            </fieldset>
+        </section>
+
+        <!------------------------- Section four end ----------------->
+
+        <!------------------------- Section five start ----------------->
+
+        <section class="five">
+            <input type="reset" value="Reset" class="reset_btn">
+            <input type="submit" value="Submit" class="submit_btn">
+        </section>
+
+        <!------------------------- Section five end ----------------->
+    </main>
+    <footer></footer>
+</body>
+</html>
